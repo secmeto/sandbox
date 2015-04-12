@@ -1,0 +1,53 @@
+A:link	{									/* 未訪問のリンク		*/
+		color:#009966;						/* LINK="#FF3399"		*/
+		text-decoration:underline;
+		}
+
+A:visited	{								/* 訪問済みリンク		*/
+		color:#003366;						/* VLINK="990066"		*/
+		text-decoration:underline;
+		}
+
+A:active	{								/* クリック中のリンク	*/
+		color:#FF00FF;						/* ALINK="#FF00FF"		*/
+		text-decoration:underline;
+		}
+
+P		{
+		font-size:11pt;						/* 文字サイズ			*/
+		color:#660099;						/* 文字色				*/
+		text-align:center					/* 中央揃え				*/
+		}
+
+P.cont	{
+		font-size:11pt;						/* 文字サイズ			*/
+		color:#000000;						/* 文字色				*/
+		text-align:left;					/* 左揃え				*/
+		margin-left:5%;						/* 左マージン:			*/
+		margin-rigth:5%;					/* 右マージン:			*/
+		font-weight:700;					/* フォントの重み		*/
+		}
+
+DL		{
+		font-size:11pt;						/* 文字サイズ			*/
+		color:#990066;						/* 文字色				*/
+		text-align:left						/* 左揃え				*/
+		}
+
+BODY	{									/* ドキュメント全体		*/
+		background-color:#FFFFFF;			/* 背景色:白			*/
+/*		background-image:url(bg_tachi.gif);	/* 背景画像				*/
+/*		background-attachment:fixed;		/* 背景画像				*/
+		color:#000000;						/* 文字色:黒			*/
+		margin-left:0%;						/* 左マージン:			*/
+		margin-rigth:0%;					/* 右マージン:			*/
+		}
+
+.unnamed1 {
+	font-family: "Century Gothic";
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #AD8F7A;
+
+}
